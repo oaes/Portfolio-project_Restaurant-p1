@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+header {
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('./img/0001.jpg');
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}  
+.logo {
+    color: white;
+    font-family: 'Yesteryear', cursive;
+    font-size: 45px;
+}  
+nav {
+    display: flex;
+    justify-content: space-between ;
+    padding: 30px 40px;
+}
+.navbar {
+    list-style: none;
+    color: white;
+}
+.navbar li  {
+    display: inline-block;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+     
+}
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+}
+.navbar li a:hover {
+    background: #f2ac32;
+  
+}
+.hero-title-1 {
+    color:#f2ac32;
+    font-family: 'Rochester', cursive;
+    font-size:3rem;
+    margin-top: 150px;
+    margin-bottom:15px;
+}
+.hero-title-2 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 55px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+.hero-cta-btn {
+    color: white;
+    background: #f2ca32;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.hero-cta-btn:hover {
+    background: #ac8b0b;
+ }
+ .search-box {
+     margin-left: 20px;
+     margin-right: 20px;
+ }
+ .my-bag {
+     font-size: 27px;
+ }
+
+ /* -------------------------------discover section--------------------------- */
+ .discover-section {
+     background: rgba(214,214,214);
+     display: flex;
+     justify-content:center;
+     padding: 100px;
+ }
+ .food-item {
+     height: 400px;
+     width: 280px;
+     background: lime;
+     margin-left: 18px;
+     margin-right: 18px;
+
+ }
+ .food-1 {
+     background-image: url('./img/plp.jpg');
+     background-size: cover;
+     justify-content: center;
+     -webkit-box-shadow: -5px 5px 21px -4px rgba(0,0,0,0.75);
+     -moz-box-shadow: -5px 5px 21px -4px rgba(0,0,0,0.75);
+     box-shadow: -5px 5px 21px -4px rgba(0,0,0,0.75);
+ }
+ .food-2 {
+     background-image:url('./img/burger.jpg');
+     background-size: cover;
+     justify-content: center;
+     -webkit-box-shadow: 1.5px 9px 21px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 1.5px 9px 21px -4px rgba(0,0,0,0.75);
+box-shadow: 1.5px 9px 21px -4px rgba(0,0,0,0.75);
+
+ }
+ .food-3 {
+     background-image: url('./img/07.jpg');
+     background-size: cover;
+     justify-content: center;
+     -webkit-box-shadow: 10px 5px 21px -4px rgba(0,0,0,0.75);
+     -moz-box-shadow: 10px 5px 21px -4px rgba(0,0,0,0.75);
+     box-shadow: 10px 5px 21px -4px rgba(0,0,0,0.75);
+ }
+
+  /* -------------------------------specialties section--------------------------- */
+.specialties-section {
+      background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('./img/oop.jpg');
+      background-size: cover;
+      padding-top: 50px;
+      padding-bottom: 20px;
+  }
+.specialties-middle {
+    text-align: center;
+    position: relative;
+  }
+.specialties-middle .special-h1 {
+      font-family: 'Rochester', cursive;
+      font-size: 40px;
+      color: #f2ca32;
+  }
+.specialties-middle .special-h2 {
+      font-family:'Oswald', sans-serif;
+      font-size: 3rem;
+      text-transform: uppercase;
+      color: white;
+      margin-bottom: 100px;
+      letter-spacing: 2px;
+  }
+.specialties-img1,
+.specialties-img2,
+.specialties-img3 {
+      width: 100%;
+      height: 250px;
+      margin-bottom: 30px;
+  }
+.specialties-col {
+      width: 300px;
+      margin-right: 20px;
+      margin-left: 20px;
+  }
+.specialties-row {
+      display: flex;
+      justify-content: center;
+  }
+.specialties-img1 {
+      background-image: url('./img/03.jpg');
+      background-size: cover;
+  }
+.specialties-img2 {
+    background-image: url('./img/10.jpg');
+    background-size: cover;
+}
+.specialties-img3 {
+    background-image: url('./img/90.jpg');
+    background-size: cover;
+}
+.special-h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;    
+    margin-bottom: 80px;
+}
+
+/* .specialties-middle:before {
+    content: '';
+    position: absolute;
+    border-top: 100px solid  rgba(214,214,214);
+    border-right: 100vw solid transparent;
+    top: -100px;
+    left: 0;
+}
+.specialties-middle:after {
+    content: '';
+    position: absolute;
+    border-bottom: 100px solid  rgba(214, 214, 214);
+    border-left: 100vw solid transparent;
+    bottom: -100px;
+    right:0;
+} */
+
+/* --------------------------------------SPECIAL-MENU SECTION---------------------------------------------- */
+.special-menu-section {
+    text-align: center;
+    background: rgba(214,214,214);
+    padding: 50px;
+}
+.special-menu-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.special-menu-h1{
+    font-family: 'Rochester', cursive;
+    color: #f2ca32;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.special-menu-h2 {
+    color: black;
+    font-family:'Oswald', sans-serif; 
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.special-menu-h3 {
+    width: 100%;
+    font-family: 'Rochester', cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.separator {
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 15px auto;
+}
+.special-menu-h4 {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    width: 100%;
+}
+.special-menu-p {
+    font-family:  "Oswald", sans-serif;
+    font-size: 14px;
+    padding: 30px 20px;
+    width: 100%;
+}
+.special-menu-col {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.col-large {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.col-large-1,
+.col-large-3 {
+    background: #f2ac32;
+    color: white;
+    justify-content: center ;
+
+}
+.fa-ice-cream,
+.fa-utensils {
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.col-large-2 {
+    background: url('./img/iccr.jpg');
+    background-size: cover;
+}
+.col-large-4 {
+    background: url('./img/plp.jpg');
+    background-size: cover;
+}
+.col-small {
+    width: 50%;
+    height: 225px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.fa-hamburger,
+.fa-hotdog  {
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #f2ac32;
+}
+.col-small-1 {
+    background: #ffffff;
+}
+.col-small-2 {
+    background-image: url('./img/13.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.col-small-3 {
+    background-image: url('./img/ppp.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.col-small-h3 {
+font-family: 'Rochester', cursive;
+font-size: 22px;
+letter-spacing: 2px;
+width: 100%;
+color: #f2ac32;
+}
+.col-small-h4 {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: 3px;
+}
+.col-small-h5 {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    color: #f2ac32;
+}
+.separator-orange {
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid #f2ac32;
+    margin: 15px auto 
+}
+/* --------------------------------------OUR-MENU SECTION---------------------------------------------- */
+.our-menu-section {
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('./img/oop.jpg');
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    padding:100px 50px;
+}
+.our-menu-h1 {
+font-family: 'Rochester', cursive;
+font-size: 40px;
+letter-spacing: 2px;
+width: 100%;
+color: #f2ac32;
+text-align: center;
+}
+.our-menu-h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    width: 100%;
+    margin-top: 10px;
+    color: #f8f8f7; 
+    text-align: center;
+    letter-spacing: 3px;
+}
+.food-container {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.our-menu-row {
+    display: flex;
+    justify-content:center;
+}
+.our-menu-col {
+    width:335px;
+    /* max-width: 500px; */
+    margin: 40px;
+    justify-content:center;
+}
+.food-title {
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+}
+.food-price {
+    font-size: 20px;
+    color: #f2ac32;
+}
+.food-info {
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    margin-right: 160px;
+    }
+.our-menu-bottom {
+    border: 1px solid white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    color:white;
+    padding: 10px 40px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.our-menu-bottom:hover {
+    background: white;
+    color:rgb(12, 11, 11);
+    padding: 10px 15px;
+}
+/* --------------------------------------Booking-Table SECTION---------------------------------------------- */
+.booking-table-section {
+padding: 100px;
+text-align: center;
+background-color: #d6d6d6; 
+}
+.booking-table-h1 {
+font-family: 'Rochester', cursive;
+font-size: 45px;
+letter-spacing: 2px;
+width: 100%;
+color: #f2ac32;
+text-align: center;
+}
+.booking-table-h2 {
+font-family: "Oswald", sans-serif;
+font-size: 50px;
+width: 100%;
+margin-top: 10px;
+color: black;
+text-align: center;
+}
+.booking-table-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.booking-div {
+    font-family: "Oswald", sans-serif;
+    margin: 30px;
+    background-color: white;
+}
+.booking-icon {
+    padding:15px 20px;
+    display: inline-block;
+    border-right: 1px solid #d6d6d6;
+}
+.booking-data {
+    padding-right:20px;
+    padding-left: 20px;
+}
+.booking-cta {
+    background-color: #f2ac32;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.booking-cta:hover {
+    background: #9e680a;
+}
+/* <!-----------------------------------footer-section---------------------------------------> */
+footer {
+    padding:60px 0;
+    padding-bottom: 0;
+    text-align: left;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url('./img/rum.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color:#d6d6d6;
+}
+.footer-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-col {
+    margin: 30px 60px;
+}
+.footer-title {
+    color: #f2ac32;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-text {
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.footer-email {
+    padding:10px 22px;
+    width: 190px;
+    height: 30px;
+}
+.footer-subscribe {
+    /* display: inline-block; */
+    font-family: "Oswald", sans-serif;
+    width: 190px;
+    color: #d6d6d6;
+    text-decoration: none;
+    /* height: 30px; */
+    background-color: #f2ac32;
+    padding: 5px 20px;
+    text-align: center;
+}
+.copyright {
+    font-family: "Oswald", sans-serif;
+    padding: 30px;
+    color: #d6d6d6;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #c0c0c06c;
+}
+.copyright-name {
+    color: #f2ac32;
+}
+
+/* end the footer section */
